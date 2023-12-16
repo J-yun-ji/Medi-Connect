@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.medical">
+
+    <!-- 인터넷, 위치 권한 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!-- http  통신 허용 -->
+    <application
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Medical">
+        <meta-data android:name="com.kakao.sdk.AppKey" android:value=""/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Membership"
+            android:label="Membership 액티비티"/>
+        <activity
+            android:name=".MainHome"
+            android:label="MainHome 액티비티"/>
+
+        <activity
+            android:name=".MedicalCommunity"
+            android:label="MedicalCommunity 액티비티"/>
+        <activity
+            android:name=".ChatbotMain"
+            android:label="ChatbotMain 액티비티"/>
+        <activity
+            android:name=".Hospitalsearch"
+            android:label="Hospitalsearch 액티비티"/>
+        <activity
+            android:name=".Selectasite"
+            android:label="Selectasite 액티비티"/>
+        <activity
+            android:name=".Eyeselectsymptom"
+            android:label="Eyeselctsymptom 액티비티"/>
+        <activity
+            android:name=".Neckselectsymptom"
+            android:label="Neckselectsymptom 액티비티"/>
+        <activity
+            android:name=".Stomachselectsymptom"
+            android:label="Stomachselectsymptom 액티비티"/>
+        <activity
+            android:name=".Waistselectsymptom"
+            android:label="Waistselectsymptom 액티비티"/>
+        <activity
+            android:name=".Legselectsymptom"
+            android:label="Legselectsymptom 액티비티"/>
+        <activity
+            android:name=".Footselectsymptom"
+            android:label="Footselectsymptom 액티비티"/>
+        <activity
+            android:name=".Vdt"
+            android:label="Vdt 액티비티"/>
+        <activity
+            android:name=".Keratitis"
+            android:label="Keratitis 액티비티"/>
+        <activity
+            android:name=".Conjunctivitis"
+            android:label="Conjunctivitis 액티비티"/>
+        <activity
+            android:name=".Pollen"
+            android:label="Pollen 액티비티"/>
+        <activity
+            android:name=".Cedema"
+            android:label="Cedema 액티비티"/>
+        <activity
+            android:name=".Glaucoma"
+            android:label="Glaucoma 액티비티"/>
+        <activity
+            android:name=".Retinitis"
+            android:label="Retinitis 액티비티"/>
+        <activity
+            android:name=".Cataract"
+            android:label="Cataract 액티비티"/>
+        <activity
+            android:name=".Floaters"
+            android:label="Floaters 액티비티"/>
+        <activity
+            android:name=".Dryeye"
+            android:label="Dryeye 액티비티"/>
+        <activity
+            android:name=".Thyroidnodule"
+            android:label="Thyroidnodule 액티비티"/>
+        <activity
+            android:name=".Hypothyroidism"
+            android:label="Hypothyroidism 액티비티"/>
+        <activity
+            android:name=".Thyroiditis"
+            android:label="Thyroidtis 액티비티"/>
+        <activity
+            android:name=".Turtle"
+            android:label="Turtle 액티비티"/>
+        <activity
+            android:name=".Upper"
+            android:label="Upper 액티비티"/>
+        <activity
+            android:name=".Nodulesvocal"
+            android:label="Nodulesvocal 액티비티"/>
+        <activity
+            android:name=".Allergicrhinitis"
+            android:label="Allergicrhinitis 액티비티"/>
+        <activity
+            android:name=".Traumaticsi"
+            android:label="Traumaticsi 액티비티"/>
+        <activity
+            android:name=".Mumps"
+            android:label="Mumps 액티비티"/>
+        <activity
+            android:name=".Laryngopharyngitis"
+            android:label="Laryngopharyngitis 액티비티"/>
+        <activity
+            android:name=".Tonsillitis"
+            android:label="Tonsillitis 액티비티"/>
+        <activity
+            android:name=".Tonsillolith"
+            android:label="Tonsillolith 액티비티"/>
+        <activity
+            android:name=".Ankylosing"
+            android:label="Ankylosing 액티비티"/>
+        <activity
+            android:name=".Polio"
+            android:label="Polio 액티비티"/>
+        <activity
+            android:name=".Renalcell"
+            android:label="Renalcell 액티비티"/>
+        <activity
+            android:name=".Renalstone"
+            android:label="Renalstone 액티비티"/>
+        <activity
+            android:name=".Completeci"
+            android:label="Completeci 액티비티"/>
+        <activity
+            android:name=".Urinaryti"
+            android:label="Urinaryti 액티비티"/>
+        <activity
+            android:name=".Lowbackpain"
+            android:label="Lowbackpain 액티비티"/>
+        <activity
+            android:name=".Spinalct"
+            android:label="Soinalct 액티비티"/>
+        <activity
+            android:name=".Spinalma"
+            android:label="Spinalma 액티비티"/>
+        <activity
+            android:name=".Scoliosis"
+            android:label="Scolliosis 액티비티"/>
+        <activity
+            android:name=".Traumaticsci"
+            android:label="Traumaticsci 액티비티"/>
+        <activity
+            android:name=".Heapatitis"
+            android:label="Heapatitis 액티비티"/>
+        <activity
+            android:name=".Gastroenteritis"
+            android:label="Gastroenteritis 액티비티"/>
+        <activity
+            android:name=".Polycystic"
+            android:label="Polycystic 액티비티"/>
+        <activity
+            android:name=".Colitis"
+            android:label="Colitis 액티비티"/>
+        <activity
+            android:name=".Appendicitis"
+            android:label="Appendicitis 액티비티"/>
+        <activity
+            android:name=".Bleeding"
+            android:label="Bleeding 액티비티"/>
+        <activity
+            android:name=".Dyspepsia"
+            android:label="Dyspepsia 액티비티"/>
+        <activity
+            android:name=".Foodborne"
+            android:label="Foodborne 액티비티"/>
+        <activity
+            android:name=".Renalartery"
+            android:label="Renalartery 액티비티"/>
+        <activity
+            android:name=".Duodenitis"
+            android:label="Duodenotis 액티비티"/>
+        <activity
+            android:name=".Urolithiasis"
+            android:label="Urolithiasis 액티비티"/>
+        <activity
+            android:name=".Stomachcramp"
+            android:label="Stomachcramp 액티비티"/>
+        <activity
+            android:name=".Beriberi"
+            android:label="Beriberi 액티비티"/>
+        <activity
+            android:name=".Osteoarthritis"
+            android:label="Osteoarthritis 액티비티"/>
+        <activity
+            android:name=".Arthritis"
+            android:label="Arthritis 액티비티"/>
+        <activity
+            android:name=".Fracture"
+            android:label="Fracture 액티비티"/>
+        <activity
+            android:name=".Rheumatoid"
+            android:label="Rheumatoid 액티비티"/>
+        <activity
+            android:name=".Gonarthrosis"
+            android:label="Gonarthrosis 액티비티"/>
+        <activity
+            android:name=".Cruciateli"
+            android:label="Cruciateli 액티비티"/>
+        <activity
+            android:name=".Acuteachilles"
+            android:label="AcuteAchilles 액티비티"/>
+        <activity
+            android:name=".Chondromalacia"
+            android:label="Chondromalacia 액티비티"/>
+        <activity
+            android:name=".Sprain"
+            android:label="Sprain 액티비티"/>
+        <activity
+            android:name=".Varicoseveins"
+            android:label="Varicoseveins 액티비티"/>
+        <activity
+            android:name=".Restless"
+            android:label="Restless 액티비티"/>
+        <activity
+            android:name=".Ganglion"
+            android:label="Ganglion 액티비티"/>
+        <activity
+            android:name=".Localized"
+            android:label="Localized 액티비티"/>
+        <activity
+            android:name=".Halluxvalgus"
+            android:label="Halluxvalgus 액티비티"/>
+        <activity
+            android:name=".Coldness"
+            android:label="Coldness 액티비티"/>
+        <activity
+            android:name=".Bunionette"
+            android:label="Bunionette 액티비티"/>
+        <activity
+            android:name=".Cavusfoot"
+            android:label="Cavusfoot 액티비티"/>
+        <activity
+            android:name=".Plantar"
+            android:label="Plantar 액티비티"/>
+        <activity
+            android:name=".Gout"
+            android:label="Gout 액티비티"/>
+        <activity
+            android:name=".Interdigital"
+            android:label="Interdigital 액티비티"/>
+        <activity
+            android:name=".Tineaunguium"
+            android:label="tineaunguium 액티비티"/>
+        <activity
+            android:name=".Goutyarthritis"
+            android:label="Goutyarthritis 액티비티"/>
+        <activity
+            android:name=".Hammertoe"
+            android:label="Hammertoe 액티비티"/>
+
+        <activity
+            android:name=".Mypage"
+            android:label="Mypage 액티비티"/>
+        <activity
+            android:name=".Mainpostlist"
+            android:label="Mypage 액티비티"/>
+
+        <activity
+            android:name=".PostRegistration"
+            android:label="PostRegistration 액티비티"/>
+        <activity
+            android:name=".DetailActivity"
+            android:label="DetailActivity 액티비티"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

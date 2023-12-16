@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50px"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dpcmr" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50px"
+        android:layout_gravity="center"
+        android:src="@drawable/expecteddiseaseoutcome" />
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="13dp"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="281dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:background="#B8E6E1" />
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="310dp"
+            android:layout_marginTop="150px"
+            android:background="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/tonsillolith"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:layout_marginTop="65dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tonsillolith1" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/otorhinolaryngology"
+                android:layout_width="115dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="270dp"
+                android:background="#FDFAD9"
+                android:text="이비인후과"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="340dp"
+            android:src="@drawable/cnfcj"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="184dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/noticesymptom" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/ppage"
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40px"
+            android:layout_marginTop="10px"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/relatedpostsshortcuts"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#EEEEEE" />
+
+        <ImageButton
+            android:id="@+id/home"
+            android:contentDescription="홈 바로가기 버튼"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/community"
+            android:contentDescription="커뮤니티 바로가기 버튼"
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/home"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/postwrite" />
+
+        <ImageButton
+            android:id="@+id/hospital"
+            android:contentDescription="병원 바로가기 버튼"
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/community"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hospital" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

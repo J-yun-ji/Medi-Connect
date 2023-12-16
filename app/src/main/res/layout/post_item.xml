@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2D2D2D"
+        android:fontFamily="@font/dream5"
+        android:layout_marginLeft="3dp"
+        android:hint="title"/>
+
+    <TextView
+        android:id="@+id/content_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#2D2D2D"
+        android:textSize="10sp"
+        android:fontFamily="@font/dream5"
+        android:layout_marginLeft="3dp"
+        android:hint="content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/like"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/like" />
+
+        <TextView
+            android:id="@+id/like_count_text_view"
+            android:layout_width="23dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/like"
+            android:textSize="11sp"
+            android:fontFamily="@font/dream5"
+            android:hint="140"/>
+
+        <ImageView
+            android:id="@+id/comm"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/like_count_text_view"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/comment" />
+
+        <TextView
+            android:id="@+id/comment_count_text_view"
+            android:layout_width="23dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/comm"
+            android:textSize="11sp"
+            android:fontFamily="@font/dream5"
+            android:hint="140"/>
+
+        <TextView
+            android:id="@+id/timestamp_text_view"
+            android:layout_width="150dp"
+            android:layout_height="15dp"
+            android:gravity="right"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="17dp"
+            android:layout_toRightOf="@id/comment_count_text_view"
+            android:textColor="#777B7C"
+            android:textSize="10sp"
+            android:fontFamily="@font/nanuma"
+            android:hint="2023-00-00"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

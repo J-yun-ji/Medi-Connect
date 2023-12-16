@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/selectsymptom" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40px"
+        android:src="@drawable/waist2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40px"
+        android:background="#B8E6E1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/symptomchoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="multipleChoice">
+            </ListView>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/Ppage"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="80px"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/previouspage"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/Npage"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="220px"
+            android:layout_marginTop="80px"
+            android:layout_toRightOf="@+id/Ppage"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nextpage"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#EEEEEE" />
+
+        <ImageButton
+            android:id="@+id/home"
+            android:contentDescription="홈 바로가기 버튼"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/community"
+            android:contentDescription="커뮤니티 바로가기 버튼"
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/home"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/postwrite" />
+
+        <ImageButton
+            android:id="@+id/hospital"
+            android:contentDescription="병원 바로가기 버튼"
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/community"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hospital" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

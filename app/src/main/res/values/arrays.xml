@@ -1,0 +1,11 @@
+<resources>
+    <string name="notice">Medical</string>
+    <string-array name="notice_array">
+        <item>의료통합시스템 안내[2023-05-08 수정]</item>
+    </string-array>
+    <string-array name="noticecontents_array">
+    <item>
+        안녕하세요\n
+    </item>
+    </string-array>
+</resources>

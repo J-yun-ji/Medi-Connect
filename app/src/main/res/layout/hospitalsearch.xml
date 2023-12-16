@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/mapView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/Mainbtn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="80px"
+        android:src="@drawable/mainhomebutton" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="40px"
+        android:src="@drawable/hospitalsearch" />
+
+    <ImageButton
+        android:id="@+id/CurLoc"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="50px"
+        android:src="@drawable/currentlocation" />
+
+    <RelativeLayout
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="40px">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40px"
+            android:background="#B8E6E1" />
+    </RelativeLayout>
+
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/Back"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="80px"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/previouspage"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/npage"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="80px"
+            android:layout_marginLeft="220px"
+            android:layout_toRightOf="@+id/Back"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nextpage"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </RelativeLayout>-->
+
+
+</LinearLayout>

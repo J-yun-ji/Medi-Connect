@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/Mainbtn"
+        android:layout_width="324dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="110px"
+        android:src="@drawable/mainhomebutton" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        android:layout_margin="12px"
+        android:scaleType="fitCenter"
+        android:src="@drawable/homeicon" />
+
+    <ImageButton
+        android:id="@+id/Mdc"
+        android:layout_width="324dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="-430px"
+        android:src="@drawable/medicalcommunity" />
+
+    <ImageButton
+        android:id="@+id/Chb"
+        android:layout_width="324dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="-50px"
+        android:src="@drawable/predictive" />
+
+    <ImageButton
+        android:id="@+id/Hps"
+        android:layout_width="324dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="-50px"
+        android:src="@drawable/hospitalsearchbutton" />
+
+</LinearLayout>

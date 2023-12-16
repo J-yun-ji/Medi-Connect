@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <ImageButton
+        android:id="@+id/Mainbtn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="60px"
+        android:src="@drawable/mainhomebutton" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#FECCBE" />
+
+        <ImageButton
+            android:id="@+id/qna"
+            android:layout_width="70dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="18.5dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/qna" />
+
+        <ImageButton
+            android:id="@+id/issue"
+            android:layout_width="91dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/qna"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="17dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/informationissue" />
+
+        <ImageButton
+            android:id="@+id/free"
+            android:layout_width="67dp"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@id/issue"
+            android:layout_marginTop="18.5dp"
+            android:layout_marginLeft="17dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/free" />
+        <ImageButton
+            android:id="@+id/not"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/free"
+            android:layout_marginTop="17.5dp"
+            android:layout_marginLeft="17dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/notice" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/mypage"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:text="마이페이지"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dream5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/Wrpost"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="작성글 관리"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonround2"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dream5"/>
+
+        <Button
+            android:id="@+id/Comm"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="댓글 관리"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dream5"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonround2"/>
+
+        <Button
+            android:id="@+id/Like"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="좋아요 누른 게시글 관리"
+            android:textSize="20dp"
+            android:background="@drawable/buttonround2"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/dream5"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#EEEEEE" />
+
+        <ImageButton
+            android:id="@+id/myp"
+            android:layout_width="63dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="53dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mypage" />
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="78dp"
+            android:layout_height="57dp"
+            android:layout_toRightOf="@id/myp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="53dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/post"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/home"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/postwrite" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

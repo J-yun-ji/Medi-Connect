@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/Mainbtn"
+        android:layout_width="324dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="110px"
+        android:src="@drawable/mainhomebutton" />
+    <ImageView
+        android:id="@+id/textView"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/membership" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="265dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:src="@drawable/input" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="7dp"
+            android:textSize="15dp"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="이름을 입력하시오."
+            android:inputType="textPersonName" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="265dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:src="@drawable/input" />
+
+        <EditText
+            android:id="@+id/et_tel"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="7dp"
+            android:textSize="15dp"
+            android:backgroundTint="@android:color/transparent"
+            android:inputType="text|number"
+            android:hint="전화번호를 입력하시오." />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="265dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:src="@drawable/input" />
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="11dp"
+            android:textSize="15dp"
+            android:layout_marginTop="7dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:privateImeOptions="defaultInputmode=english"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="아이디(이메일 형태)를 입력하시오." />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="265dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:src="@drawable/input" />
+
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="7dp"
+            android:textSize="15dp"
+            android:backgroundTint="@android:color/transparent"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="비밀번호를 입력하시오.(6자리 이상)" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="265dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:src="@drawable/input" />
+
+        <EditText
+            android:id="@+id/et_nick"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="7dp"
+            android:backgroundTint="@android:color/transparent"
+            android:textSize="15dp"
+            android:hint="닉네임을 입력하시오." />
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/btn_register"
+        android:layout_width="160dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/completion" />
+
+</LinearLayout>
