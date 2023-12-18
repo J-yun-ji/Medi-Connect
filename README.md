@@ -1,6 +1,8 @@
 <h1 align="center">Medi Connect</h1>
 <p align="center">
-  <strong>2023-1학기 캡스톤 디자인 프로젝트 [의료 커뮤니티 및 질환 예측 진단] </strong>
+  <strong>2023-1학기 캡스톤 디자인 프로젝트</strong>
+  <br>
+  <strong>[의료 커뮤니티 및 질환 예측 진단] </strong>
 </p>
 <br>
 <br>
